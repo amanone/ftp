@@ -1,0 +1,44 @@
+Conforme avec la RFC 959 (testé avec FileZilla, ProFTPd, VsFTPd)
+  - répertoire personnel configurable par utilisateur via `serveur.conf`
+  - gestion des comptes utilisateurs avec chiffrement symétrique
+  -  mode secure, mot de passe haché avec SHA256
+  - option demonization
+  - gestion IPv6
+  - gestion des droits
+  - cmd rm, rmdir, mkdir, mv, type, etc...
+  - help, lcd, lpwd, lls, lmkdir, lrmdir, lrm
+  - mode asc/bin
+  - mode actif/passif
+
+  * bell
+  * bin
+  * cdup
+  * chmod
+  * cwd
+  * dele
+  * list
+  * mget
+  * mkd
+  * pass
+  * pasv
+  * port
+  * pwd
+  * quit
+  * retr
+  * rmd
+  * rnfr
+  * rnto
+  * site
+  * stor
+  * syst
+  * type
+  * user
+
+  * port
+  * lcd
+  * lpwd
+  * lls
+  * lmkdir
+  * lrm
+  * lhelp
+  * lrmdir
